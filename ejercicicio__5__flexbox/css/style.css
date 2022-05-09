@@ -1,0 +1,113 @@
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+header .logo1 {
+    width: 100%;
+    text-align: center;
+    }
+
+header .menu ul  {
+    text-align:center;
+    list-style:none;
+    padding: 5px;
+}
+
+header {
+    border-bottom:10px solid rgb(43, 94, 172) ;
+    border-top: 10px solid rgb(43, 94, 172);
+    border-left:10px solid rgb(43, 94, 172) ;
+    border-right: 10px solid rgb(43, 94, 172);
+    background-color: #ffffff;
+    padding: 18px 10px;
+    margin-left: 40px;
+    margin-right: 40px;}
+
+header .menu ul  a {
+    
+    color: #030303;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px ;
+    margin: 30px 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+header .menu ul  a:hover {
+    transition: 1s;
+    background-color: #f0e331f6;
+    color: black;
+    padding: 5px;}
+    
+
+ header .iniciar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: #f8e85b;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+header .iniciar a:hover {
+    color: black;
+    border-bottom: solid rgb(96, 143, 204);}
+
+header {
+   
+    justify-content: space-around;
+    align-items: center;}
+
+.marca {
+    font-size: 25px;
+    color:rgb(255, 255, 255) ;}
+
+
+.cuerpo {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 94, 172);
+    padding: 20px 10px;
+     width: auto;
+    margin: 30px;}
+
+.nuestro {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 94, 172);
+    padding: 10px 10px;
+    margin-left: 40px;
+    margin-right: 40px;}
+
+.pie {padding: 50px;
+      margin: 4px;}
+    
+.links {padding: 100px;}
+
+
+.column1 {
+    margin: 20px;
+     background-color:rgba(0, 0, 255, 0.199);
+     padding: 20px; 
+     width: 120px;
+     text-align: center;
+     font-size: 20px;
+    }
+
+     
+.registro a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        background-color: #f8e85b;
+        border-radius: 30px;
+        padding: 10px;
+        float: right;
+        
+    }
+    
+.registro a:hover {
+        color: black;
+        border-bottom: solid rgb(96, 143, 204);}
+    }
